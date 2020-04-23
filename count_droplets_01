@@ -2,13 +2,17 @@ def count_droplets(test_img, low_thresh = 0.9):
     
     # Short summary: This function will count the number of bright circles in a image.
 
-    #Extended summary: This function can count the number of objects in image using region based segmentation with an intensity threshold defined by the user.
+    #Extended summary: This function can count the number of objects in image using region based segmentation with an 
+    #intensity threshold defined by the user.
 
     #Inputs: Image (preferability in .jpg or .tif format), lower threshold (value from 0 to 1)
 
     #Outputs: The number of bright objects
 
-    #Example: For our team project we want to identify the number of lenses in fluorescent microscopy images. Lenses are the objects that contain an envelop of oil within a membrane. In the images, these are the objects that appear as a bright blob within a highlighted dark circle. To start identifying these objects, we can use the function count_droplets to first identify all of the bright oil droplets (inlcuding lenses & oil only droplets).
+    #Example: For our team project we want to identify the number of lenses in fluorescent microscopy images. 
+    #Lenses are the objects that contain an envelop of oil within a membrane. 
+    #In the images, these are the objects that appear as a bright blob within a highlighted dark circle. 
+    #To start identifying these objects, we can use the function count_droplets to first identify all of the bright oil droplets.
     
     import numpy as np
     import matplotlib.pyplot as plt
