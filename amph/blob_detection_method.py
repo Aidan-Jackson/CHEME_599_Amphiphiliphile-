@@ -22,7 +22,6 @@ class blob_detection_method:
         import numpy as np
         import skimage as sk
         from skimage import io
-        from skimage.feature import blob_log
         from skimage.color import rgb2gray
         from skimage.util import pad, img_as_float
         from skimage.filters import rank
