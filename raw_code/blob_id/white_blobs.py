@@ -1,5 +1,3 @@
-test_image = plt.imread('project_image.jpg') #Reads in an example test image
-
 #This function identifies the number, location, and size of white blobs within a single image by
 #using one of the skimage.feature blob detection functions. 
 #Lenses, a white particle on top of a black one, are also counted individually and the same
