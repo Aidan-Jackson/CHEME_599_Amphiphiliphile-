@@ -1,2 +1,4 @@
-from .blob_detection_method import blob_detection_method 
-from .other_method import other_method
+from .miwa import miwa_blob_detection
+from .aiden import blobs
+from .aiden import graph_blobs
+from .zach import zach_blob_detectionq
