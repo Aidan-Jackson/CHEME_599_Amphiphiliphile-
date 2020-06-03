@@ -15,7 +15,7 @@
     "\n",
     "   Parameters:\n",
     "    test_img should be a 3d array \n",
-    "    lower_thresh should be the fraction of pixels that certainly correspond to the background\n",
+    "    lower_thresh should be the fraction of pixels that correspond to the background\n",
     "\n",
     "    Returns:\n",
     "    a string that spits out the counted number of bright regions will be returned\n",
