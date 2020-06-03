@@ -6,7 +6,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "def count_droplets(test_img, low_thresh = 0.9):\n",
+    "def Detect_bright_spots(test_img, low_thresh = 0.9):\n",
     "    '''\n",
     "    Short summary: This function will count the number of bright spots in a image.\n",
     "\n",
