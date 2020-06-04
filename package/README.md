@@ -8,7 +8,7 @@ Jupyter notebook installation (recomended):
 1. "Go to examples/usage_examples"/ and run the first cell of installation.ipynb to check the jupyter notebook environment.
 2. Using the terminal in the highest level of the CHEME599_Amphiphilphile- repository, outside of the python environment, run the following command:
 
-"your_path setup.py install"/n
+"your_path setup.py install"\newline
 Where "your_path" is the path produced in the first cell of installation.ipynb. 
 
 For example if your path is "C:\\Users\\bubbl\\Anaconda3\\envs\\py36\\python.exe" then your command is "C:\\Users\\bubbl\\Anaconda3\\envs\\py36\\python.exe setup.py install".
