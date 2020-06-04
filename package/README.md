@@ -42,3 +42,15 @@ The package is split into three clases:
 1. blob_detection class has functions which use the blob_detection method built into scipy. Does not work across a series of images.
 2. segementaion class has functions which use a segmentation method build from scratch using scipy modules. Does not work across a series of images.
 3. time_series has functions which can work across a series of images.
+
+PACKAGE REQUIREMENTS
+--------------------
+
+The following packages are necessary:
+- numpy
+- matplotlib.plt
+- pandas
+- skimage
+- pims
+- trackpy
+
