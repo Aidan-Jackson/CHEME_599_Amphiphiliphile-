@@ -12,6 +12,7 @@ Jupyter notebook installation (recomended):
 Where "your_path" is the path produced in the first cell of installation.ipynb. 
 
 For example if your path is "C:\\Users\\bubbl\\Anaconda3\\envs\\py36\\python.exe" then your command is "C:\\Users\\bubbl\\Anaconda3\\envs\\py36\\python.exe setup.py install".
+
 3. Run the remaining cell in installation.ipynb to confirm that the package can be imported successfully. 
 
 Terminal/command line installation:
