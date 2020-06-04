@@ -1,6 +1,0 @@
-README.md
-setup.py
-example_pkgi_cheme599amph.egg-info/PKG-INFO
-example_pkgi_cheme599amph.egg-info/SOURCES.txt
-example_pkgi_cheme599amph.egg-info/dependency_links.txt
-example_pkgi_cheme599amph.egg-info/top_level.txt
