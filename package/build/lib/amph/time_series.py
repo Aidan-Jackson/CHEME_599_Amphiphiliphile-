@@ -37,7 +37,7 @@ class time_series:
             objects.append((x_vals_in_blob,y_vals_in_blob))
         return(objects)
 
-    # segmentation method
+    # Method 1: segmentation
     def find_bright_spots2(img2,lower = 0.95, upper = 0.01):
         # Short summary: Find the (x,y) positions for every point within each bright ball in an image
         

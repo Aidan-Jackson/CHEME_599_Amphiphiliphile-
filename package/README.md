@@ -1,8 +1,24 @@
-HOW TO USE THE PACKAGE
+HOW TO INSTALL AND USE THE PACKAGE
 ----------------------
+This package is best used in a jupyter notebook!
 
-If you are able to run a local jupyter notebook, you can simply run the test.ipynb notebook as is in this repository.
-If you are unable to run a local jupyter notebook and wish to use jupyter lab, upload the 'amph' directory and 'test.ipynb' notebook to your jupyter server. Make sure that the python notebook is directly above the 'amph' directory in the file tree.
+Two installation methods:
+
+Jupyter notebook installation (recomended):
+1. "Go to examples/usage_examples"/ and run the first cell of installation.ipynb to check the jupyter notebook environment.
+2. Using the terminal in the highest level of the CHEME599_Amphiphilphile- repository, outside of the python environment, run the following command:
+
+"your_path setup.py install"/n
+Where "your_path" is the path produced in the first cell of installation.ipynb. 
+
+For example if your path is "C:\\Users\\bubbl\\Anaconda3\\envs\\py36\\python.exe" then your command is "C:\\Users\\bubbl\\Anaconda3\\envs\\py36\\python.exe setup.py install".
+3. Run the remaining cell in installation.ipynb to confirm that the package can be imported successfully. 
+
+Terminal/command line installation:
+1. Outside of the python environment in CHEME599_Amphiphilphile run the command "python setup.py install".
+2. To confirm that the package is installed run "import amph" in your python environment in the terminal.
+
+To understand package usage, please see the other notebooks in the "examples" directory. There is a notebook for each class as described in the package orgnaization below.
 
 PACKAGE DETAILS
 ---------------
@@ -21,6 +37,7 @@ More generally, this code could be used to:
 PACKAGE ORGANIZATION
 --------------------
 
-Currently the package is split into two modules, each with one class.
-1) blob_detection which uses the prebuilt blob_detection package.
-2) other_methods which uses built-from scratch methods.
+The package is split into three clases:
+1. blob_detection class has functions which use the blob_detection method built into scipy. Does not work across a series of images.
+2. segementaion class has functions which use a segmentation method build from scratch using scipy modules. Does not work across a series of images.
+3. time_series has functions which can work across a series of images.
