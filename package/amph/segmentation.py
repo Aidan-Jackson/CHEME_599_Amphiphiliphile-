@@ -62,11 +62,13 @@ class segmentation:
         count = watershed(gradient, labelled_droplets) #Use watershed to "mark" regions and count spots
         number_of_drops = str(np.max(count)) #string to return droplet count
 
-        return;
-
         print(number_of_drops)
         fig, ax = plt.subplots(figsize=(15, 9), sharey=True)
         ax.imshow(test_img, cmap=plt.cm.gray)
         ax.contour(labelled_droplets, [0.5], linewidths=1.2, colors='m', alpha=0.7)
         plt.title('Threshold Overlay')
         plt.axis('off')
+        
+        return;
+
+        
